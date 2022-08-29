@@ -3,7 +3,7 @@
 # Udacity-Project4
 Project 4 of the Udacity Coud DevOps program
 
-#Project Overview
+# Project Overview
 
 In this project, we applied the skills you have acquired in this course to operationalize a Machine Learning Microservice API.
 
