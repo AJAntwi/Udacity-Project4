@@ -1,24 +1,24 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/AJAntwi/Udacity-Project4/tree/main.svg?style=shield)](https://dl.circleci.com/status-badge/redirect/gh/AJAntwi/Udacity-Project4/tree/main)
 
 # Udacity-Project4
-Project 4 of the Udacity Coud DevOps program
+_Project 4 of the Udacity Coud DevOps program_
 
 # Project Overview
 
-In this project, we applied the skills you have acquired in this course to operationalize a Machine Learning Microservice API.
+In this project, I applied the skills I have acquired in this course to operationalize a Machine Learning Microservice API.
 
-We were given a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on the data source site. This project tests your ability to operationalize a Python flask app—in a provided file, app.py—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
+I was given a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on the data source site. This project tests your ability to operationalize a Python flask app—in a provided file, app.py—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
 ### Project Tasks
-The project goal is to operationalize this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications. In this project you will:
+The project goal is to operationalize this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications. In this project I will:
 
-* Test your project code using linting
+* Test my project code using linting
 * Complete a Dockerfile to containerize this application
-* Deploy your containerized application using Docker and make a prediction
+* Deploy my containerized application using Docker and make a prediction
 * Improve the log statements in the source code for this application
 * Configure Kubernetes and create a Kubernetes cluster
 * Deploy a container using Kubernetes and make a prediction
-* Upload a complete Github repo with CircleCI to indicate that your code has been tested
+* Upload a complete Github repo with CircleCI to indicate that my code has been tested
 
 You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
 
@@ -26,8 +26,9 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 ## Setup the Environment
 
-* Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
-```bash
+* Create a virtualenv with Python 3.7 and activate it. Refer to the script below for help on specifying the Python version in the virtualenv. 
+```
+bash
 python3 -m pip install --user virtualenv
 # You should have Python 3.7 available in your host. 
 # Check the Python path using `which python3`
