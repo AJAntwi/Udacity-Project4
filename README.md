@@ -74,7 +74,9 @@ My deliverables for this project included:
 
 ## Reflection and Accomplishments
 
-Completing this project was a pivotal moment in my Cloud DevOps learning path. It provided practical experience in deploying and managing a machine learning microservice, deepening my understanding of modern deployment technologies and practices. This project was instrumental in enhancing my skills in cloud computing and DevOps methodologies.
+Completing this project was a pivotal moment in my Cloud DevOps learning path.
+It provided practical experience in deploying and managing a machine learning microservice,
+deepening my understanding of modern deployment technologies and practices. This project was instrumental in enhancing my skills in cloud computing and DevOps methodologies.
 
 ## Built With
 
