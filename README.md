@@ -20,7 +20,7 @@ In this project, I:
 
 The final implementation of this project demonstrates my abilities to operationalize production microservices.
 
-### Environment Setup
+## Environment Setup
 
 To setup the environment:
 * Create a virtualenv with Python 3.7 and activate it:
