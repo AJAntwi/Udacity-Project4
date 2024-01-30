@@ -27,8 +27,9 @@ The final implementation of this project demonstrates my abilities to operationa
   # Ensure Python 3.7 is available in your host.
   python3 -m virtualenv --python=<path-to-Python3.7> .devops
   source .devops/bin/activate
-```
-* Run `make install` to install the necessary dependencies
+```bash
+
+Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
 
@@ -57,15 +58,6 @@ The final implementation of this project demonstrates my abilities to operationa
 * Makefile: Contains instructions for environment setup and lint tests.
 * make_predictions.sh: Script for making predictions.
 
-* `model_data` directory contains the csv data
-* `output_txt_files` directory contains the `docker_out.txt` && `kubernetes_out.txt`
-* `app.py` is the python file dfining the application
-* `Dockerfile` is the Dockerfile
-* `requirement.txt` contains the python requirement for the `app.py`
-* `run_docker.sh` contains the script to build and run docker locally
-* `run_kubernetes.sh` contains to orchestrate kubernetes from the docker image
-* `upload_docker.sh` contains the script to upload the docker image to dockerhub
-* `Makefile` The Makefile includes instructions on environment setup and lint test
-* `make_predictions.sh` for making predictions 
+
 
 
