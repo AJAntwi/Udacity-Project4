@@ -43,6 +43,15 @@ To setup the environment:
 * Create Flask app in Container
 * Run via kubectl
 
+Key Deliverables
+
+My deliverables for this project included:
+
+    A Dockerfile for containerizing the Python Flask application.
+    Scripts for running the application in Docker and Kubernetes.
+    A fully-functional GitHub repository demonstrating the CI/CD process with CircleCI.
+    Deployment of the containerized application using Kubernetes.
+
 ### Files in the repository
 
 * .circleci/config.yml: Configuration file for CircleCI.
@@ -58,7 +67,21 @@ To setup the environment:
 * make_predictions.sh: Script for making predictions.
 
 
+### Reflection and Accomplishments
 
+Completing this project was a pivotal moment in my Cloud DevOps learning path. It provided practical experience in deploying and managing a machine learning microservice, deepening my understanding of modern deployment technologies and practices. This project was instrumental in enhancing my skills in cloud computing and DevOps methodologies.
 
+### Built With
+
+    Python Flask - Web framework used for the API
+    Docker - Containerization platform
+    Kubernetes - Container orchestration tool
+    CircleCI - Continuous Integration and Deployment
+    GitHub - Source code management
+    sklearn - Machine learning library for Python
+
+License
+
+License
 
 
