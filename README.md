@@ -19,8 +19,7 @@ In this project, I:
 
 The final implementation of this project demonstrates my abilities to operationalize production microservices.
 
-## Setup the Environment
-
+To setup the environment:
 * Create a virtualenv with Python 3.7 and activate it:
   ```bash
   python3 -m pip install --user virtualenv
@@ -29,7 +28,7 @@ The final implementation of this project demonstrates my abilities to operationa
   source .devops/bin/activate
 ```bash
 
-Run `make install` to install the necessary dependencies
+* Then, run `make install` to install the necessary dependencies
 
 ### Running `app.py`
 
@@ -57,6 +56,8 @@ Run `make install` to install the necessary dependencies
 * upload_docker.sh: Script to upload the Docker image to Docker Hub.
 * Makefile: Contains instructions for environment setup and lint tests.
 * make_predictions.sh: Script for making predictions.
+
+
 
 
 
